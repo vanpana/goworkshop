@@ -1,11 +1,28 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"io/ioutil"
+	"encoding/json"
+)
 
 func main() {
-	fmt.Println("hello world!")
-	fmt.Println("Catalin")
-	fmt.Println("Hi, my name is Alex")
-	fmt.Println("Hi, my name is Tibi")
-	fmt.Println("Hi, my name is Anda! :)")
+	bookFileContent, err := ioutil.ReadFile("main/books.json")
+
+	if err != nil {
+		//fmt.Println("Error occured")
+		//os.Exit(1)
+
+		panic(err) // Similar to the lines above
+	}
+
+	fmt.Println(string(bookFileContent))
+	var books []BookDto
+
+	if err = json.Unmarshal(bookFileContent, &books); err != nil {
+		panic(err)
+	}
+
+	fmt.Println(books)
+
 }
