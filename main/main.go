@@ -16,7 +16,6 @@ func main() {
 		panic(err) // Similar to the lines above
 	}
 
-	fmt.Println(string(bookFileContent))
 	var books []BookDto
 
 	if err = json.Unmarshal(bookFileContent, &books); err != nil {
@@ -24,5 +23,15 @@ func main() {
 	}
 
 	fmt.Println(books)
+
+	serializedData, err := json.Marshal(books)
+
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println("Serialized Books are: ")
+	fmt.Println(string(serializedData))
+
 
 }
