@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"goworkshop/model"
 	"encoding/json"
+	"goworkshop/web"
 )
 
 func main() {
@@ -30,6 +31,8 @@ func main() {
 
 	fmt.Println(model.Books)
 	fmt.Println(model.Authors)
+
+	web.StartServer()
 
 
 
