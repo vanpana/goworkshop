@@ -1,11 +1,36 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"io/ioutil"
+	"goworkshop/model"
+	"encoding/json"
+)
 
 func main() {
-	fmt.Println("hello world!")
-	fmt.Println("Catalin")
-	fmt.Println("Hi, my name is Alex")
-	fmt.Println("Hi, my name is Tibi")
-	fmt.Println("Hi, my name is Anda! :)")
+	booksFileData, booksErr := ioutil.ReadFile("data/books.json")
+	authorsFileData, authorsErr := ioutil.ReadFile("data/authors.json")
+
+	if booksErr != nil {
+		panic(booksErr)
+	}
+
+	if authorsErr != nil {
+		panic(authorsErr)
+	}
+
+	if booksUnmarshalErr := json.Unmarshal(booksFileData, &model.Books); booksUnmarshalErr != nil {
+		panic(booksUnmarshalErr)
+	}
+
+	if authorsUnmarshalErr := json.Unmarshal(authorsFileData, &model.Authors); authorsUnmarshalErr != nil {
+		panic(authorsUnmarshalErr)
+	}
+
+
+	fmt.Println(model.Books)
+	fmt.Println(model.Authors)
+
+
+
 }
