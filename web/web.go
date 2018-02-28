@@ -7,6 +7,7 @@ import (
 	"encoding/json"
 	"goworkshop/model"
 	"github.com/gorilla/mux"
+	"io/ioutil"
 )
 
 const API_PORT_NAME = "API_PORT"
@@ -19,6 +20,7 @@ func StartServer() {
 	router.HandleFunc("/books/{uuid}/author", getBookAuthor).Methods("GET")
 
 	router.HandleFunc("/author", createAuthor).Methods("POST")
+	router.HandleFunc("/author", getAuthors).Methods("GET")
 
 
 	var port = getPort()
@@ -91,7 +93,22 @@ func getBookAuthor(w http.ResponseWriter, r *http.Request) {
 }
 
 func createAuthor(w http.ResponseWriter, r *http.Request) {
-	r.Body.Read()
+	body, err := ioutil.ReadAll(r.Body)
+
+	if err != nil {
+		fmt.Fprintln(w, "{\"message\":\"Error reading body\"")
+		return
+	}
+
+	var author model.AuthorDto
+
+	// TODO: fix empty author
+	if err = json.Unmarshal(body, &author); err != nil {
+		fmt.Fprintln(w, "{\"message\":\"Error unmarshaling the body\"")
+		return
+	}
+
+	model.Authors = append(model.Authors, author)
 }
 
 func getPort() string {
