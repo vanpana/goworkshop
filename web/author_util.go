@@ -52,5 +52,11 @@ func getAuthor(w http.ResponseWriter, r *http.Request) {
 }
 
 func deleteAuthor(w http.ResponseWriter, r *http.Request) {
+	uuid := mux.Vars(r)["uuid"]
 
+	w.Header().Set("Content-Type", "application/json")
+
+	delete(model.Authors, uuid)
+
+	return
 }

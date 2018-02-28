@@ -33,6 +33,11 @@ var routes = []Route{
 		httpMethod: "POST",
 	},
 	{
+		route: "/authors/{uuid}",
+		handler: deleteAuthor,
+		httpMethod: "DELETE",
+	},
+	{
 		route: "/authors",
 		handler: getAllAuthors,
 		httpMethod: "GET",
