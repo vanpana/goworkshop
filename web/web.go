@@ -13,6 +13,20 @@ import (
 const API_PORT_NAME = "API_PORT"
 const API_PORT_VALUE = "8000"
 
+type Route struct {
+	route string,
+	handler func(http.ResponseWriter, *http Request)
+	httpMethod string
+}
+
+var routes = []Route {
+	{
+		route: "/books",
+		handler: getBooks,
+		httpMethod: "GET",
+
+	},
+}
 func StartServer() {
 	router := mux.NewRouter()
 	router.HandleFunc("/books", getBooks).Methods("GET")
