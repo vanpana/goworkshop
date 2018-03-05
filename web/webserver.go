@@ -7,7 +7,6 @@ import (
 	"encoding/json"
 	"goworkshop/model"
 	"github.com/gorilla/mux"
-	"io/ioutil"
 )
 
 const API_PORT_NAME = "API_PORT"
