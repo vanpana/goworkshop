@@ -12,13 +12,28 @@ var routes = []Route{
 	// Books
 	{
 		route:      "/books",
-		handler:    getAllBooks,
+		handler:    GetAllBooks,
 		httpMethod: "GET",
 	},
 	{
 		route:      "/books/{uuid}",
-		handler:    getBookByUuid,
+		handler:    GetBookByUUID,
 		httpMethod: "GET",
+	},
+	{
+		route:      "/books/{uuid}",
+		handler:    UpdateBook,
+		httpMethod: "PUT",
+	},
+	{
+		route:      "/books/{uuid}",
+		handler:    DeleteBookByUUID,
+		httpMethod: "DELETE",
+	},
+	{
+		route:      "/books",
+		handler:    AddBook,
+		httpMethod: "POST",
 	},
 
 	// Authors

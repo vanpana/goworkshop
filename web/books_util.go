@@ -6,51 +6,49 @@ import (
 	"goworkshop/model"
 	"fmt"
 	"encoding/json"
+	"io/ioutil"
 )
 
-func getBookAuthor(w http.ResponseWriter, r *http.Request) {
-	uuid := mux.Vars(r)["uuid"]
-	for _, book := range model.Books {
-		if book.UUID == uuid {
-			if err := serializeData(book.Author, w); err != nil {
-				w.WriteHeader(http.StatusBadRequest)
-			}
-		}
-	}
-
-	fmt.Fprintln(w, "{\"message\":\"The book does not exist!\"}")
-	w.WriteHeader(http.StatusNotFound)
+func GetAllBooks(w http.ResponseWriter, r *http.Request) {
+	WriteJson(w, model.Books)
 }
 
-func getBookByUuid(w http.ResponseWriter, r *http.Request) {
-	uuid := mux.Vars(r)["uuid"]
-
-	w.Header().Set("Content-Type", "application/json")
-
-	for _, book := range model.Books {
-		if book.UUID == uuid {
-			if data, err := json.Marshal(book); err != nil {
-				fmt.Fprintln(w, "{\"message\":\"Error reading!\"}")
-				return
-			} else {
-				fmt.Fprintln(w, string(data))
-				return
-			}
-		}
-	}
-
-	fmt.Fprintln(w, "{\"message\":\"The book does not exist!\"}")
-	w.WriteHeader(http.StatusNotFound)
+func GetBookByUUID(w http.ResponseWriter, r *http.Request) {
+	var bookUUID = mux.Vars(r)["uuid"]
+	book := model.Books[bookUUID]
+		WriteJson(w, book)
 }
 
-func getAllBooks(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("Request method:", r.Method)
-	w.Header().Set("Content-Type", "application/json")
+func DeleteBookByUUID(w http.ResponseWriter, r *http.Request) {
+	var bookUUID = mux.Vars(r)["uuid"]
+	delete(model.Books, bookUUID)
+	WriteJson(w, model.Books)
+}
 
-	if data, err := json.Marshal(model.Books); err != nil {
-		fmt.Fprintln(w, "{\"message\":\"Error reading!\"}")
+func AddBook(w http.ResponseWriter, r *http.Request) {
+	var book model.BookDto
+	bytes, _ := ioutil.ReadAll(r.Body)
+	err := json.Unmarshal(bytes, &book)
+	if err != nil {
+		fmt.Fprintf(w, "Failed to create book: %s", err)
 	} else {
-		fmt.Fprintln(w, string(data))
+		model.Books[book.UUID] = book
+		WriteJson(w, book)
 	}
+}
 
+func UpdateBook(w http.ResponseWriter, r *http.Request) {
+	var book model.BookDto
+	bytes, _ := ioutil.ReadAll(r.Body)
+	err := json.Unmarshal(bytes, &book)
+	if err != nil {
+		fmt.Fprintf(w, "Failed to update book: %s", err)
+		return
+	}
+	model.Books[book.UUID] = book
+	if err != nil {
+		fmt.Fprintf(w, "Failed to update book: %s", err)
+		return
+	}
+	WriteJson(w, book)
 }
