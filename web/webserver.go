@@ -7,7 +7,11 @@ import (
 	"encoding/json"
 	"goworkshop/model"
 	"github.com/gorilla/mux"
+<<<<<<< HEAD
 	"io/ioutil"
+=======
+	"fmt"
+>>>>>>> f386772... step 8
 )
 
 const API_PORT_NAME = "API_PORT"
@@ -35,7 +39,8 @@ var routes = []Route{
 func StartServer() {
 	mux := mux.NewRouter()
 	for _, route := range routes {
-		mux.HandleFunc(route.route, route.handler).Methods(route.httpMethod)
+	handlerFunc := log(route.HandlerFunc)
+	router.HandleFunc(route.Pattern, handlerFunc).Methods(route.Method)
 	}
 
 	var port = getPort()
@@ -47,6 +52,7 @@ func StartServer() {
 	}
 }
 
+<<<<<<< HEAD
 func serializeData(data interface{}, w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	if data, err := json.Marshal(data); err != nil {
@@ -126,6 +132,17 @@ func getAllBooks(w http.ResponseWriter, r *http.Request) {
 
 }
 
+=======
+func log(funcHandler http.HandlerFunc) http.HandlerFunc{
+	fmt.Println("Returning the function")
+	return func (rw http.ResponseWriter, r *http.Request){
+		fmt.Println("New REST request to url: "+r.URL.Path)
+		funcHandler(rw, r)
+		fmt.Println("Rest request ended")
+	}
+}
+
+>>>>>>> f386772... step 8
 func getPort() string {
 	port := os.Getenv(API_PORT_NAME)
 	if port != "" {
