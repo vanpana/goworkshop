@@ -69,6 +69,7 @@ func updateAuthor(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintln(w, "{\"message\":\"Error reading body!\"}")
 		return
 	}
+
 	var author model.AuthorDto
 	if err := json.Unmarshal(body, &author); err != nil {
 		fmt.Fprintln(w, "{\"message\":\"Error unmarshling the body!\"}")
