@@ -1,0 +1,1516 @@
+    1  adb
+    2  exit
+    3  adb
+    4  /Users/vanpana/Library/Android/sdk/platform-tools/adb devices
+    5  /Users/vanpana/Library/Android/sdk/platform-tools/adb shell start -n com.android.engineeringmode/.qualcomm.DiagEnabled --es "code" "angela"
+    6  /Users/vanpana/Library/Android/sdk/platform-tools/adb shell start -n com.android.engineeringmode/.qualcomm.DiagEnabled
+    7  /Users/vanpana/Library/Android/sdk/platform-tools/adb shell start -n com.android.engineeringmode/
+    8  /Users/vanpana/Library/Android/sdk/platform-tools/adb root
+    9  /Users/vanpana/Library/Android/sdk/platform-tools/adb shell
+   10  /Users/vanpana/Library/Android/sdk/platform-tools/adb shell start -n com.android.engineeringmode/
+   11  /Users/vanpana/Library/Android/sdk/platform-tools/adb shell start -n com.android.engineeringmode/.qualcomm.DiagEnabled --es "code" "angela"
+   12  /Users/vanpana/Library/Android/sdk/platform-tools/adb shell shell am start -n com.android.engineeringmode/.qualcomm.DiagEnabled --es "code" "angela"
+   13  /Users/vanpana/Library/Android/sdk/platform-tools/adb shell am start -n com.android.engineeringmode/.qualcomm.DiagEnabled --es "code" "angela"
+   14  docker start mystore
+   15  docker exec -it mystore "bash"
+   16  docker cp 7e3f65cd1567:/var/opt/mssql/backup/mystore15112017.bak /Users/vanpana/Desktop/mystore27102017.bak
+   17  docker ps -a
+   18  docker cp 7e3f65cd1567:/var/opt/mssql/backup/data/mystore15112017.bak /Users/vanpana/Desktop/mystore27102017.bak
+   19  docker cp 7e3f65cd1567:var/opt/mssql/data/mystore15112017.bak /Users/vanpana/Desktop/mystore27102017.bak
+   20  docker exec -it mystore "bash"
+   21  docker cp 7e3f65cd1567:/var/opt/mssql/data/mystore15112017.bak /Users/vanpana/Desktop/mystore27102017.bak
+   22  docker exec -it mystore "bash"
+   23  ls
+   24  cd Public
+   25  cd ..
+   26  alias
+   27  cd ...
+   28  cd 
+   29  cd Desktop
+   30  c ...
+   31  cd ...
+   32  cd
+   33  cd Desktop/Poze\ Nunta
+   34  cd ...
+   35  vim ~/.zshrc
+   36  atom
+   37  atom ~/.zshrc
+   38  ls
+   39  atom ~/.zshrc
+   40  cd Documents/Uni/An2/Sem1/Retele/Lab3 
+   41  cd ..
+   42  mkdir tools
+   43  pwd
+   44  cd /Users/vanpana/Documents/Uni/An2/Sem1/Retele
+   45  cd tools
+   46  atom ./server.c
+   47  atom ./client.c
+   48  alias cdan2sem1 = "cd /Users/vanpana/Documents/Uni/An2/Sem1"
+   49  alias
+   50  alias cdan2sem1="/Users/vanpana/Documents/Uni/An2/Sem1"
+   51  cdan2sem1
+   52  ls
+   53  clang client.c -o client
+   54  clang server.c -o server
+   55  ./server
+   56  ./client
+   57  ./server
+   58  clang server.c -o server
+   59  clang client.c -o client
+   60  exit
+   61  exec bash
+   62  pwd
+   63  clang client.c -o client
+   64  ./client
+   65  clang client.c -o client
+   66  ./client
+   67  clang client.c -o client
+   68  ./client
+   69  clang client.c -o client
+   70  ./client
+   71  clang client.c -o client
+   72  ./client
+   73  clang client.c -o client
+   74  ./client
+   75  clang client.c -o client
+   76  ./client
+   77  clang client.c -o client
+   78  ./client
+   79  clang client.c -o client
+   80  ./client
+   81  clang client.c -o client
+   82  ./client
+   83  clang client.c -o client
+   84  ./client
+   85  clang client.c -o client
+   86  ./client
+   87  clang client.c -o client
+   88  ./client
+   89  clang server.c -o server
+   90  ./server
+   91  ./client
+   92  clang server.c -o server
+   93  ./client
+   94  ./server
+   95  ./client
+   96  clang server.c -o server
+   97  clang client.c -o client
+   98  ./client
+   99  clang client.c -o client
+  100  ./client
+  101  clang client.c -o client
+  102  ./client
+  103  alias
+  104  cd Documents/Uni/An2/Sem1/PLF
+  105  ls
+  106  mkdir sem4
+  107  ls
+  108  ls -a
+  109  atom .zshrc
+  110  fds
+  111  ls
+  112  ffds
+  113  s
+  114  ls
+  115  cd Documents/Uni/An2/Sem1/PLF/sem4
+  116  Atom introlisp
+  117  PROMPT=':)'
+  118  ls
+  119  PROMPT='🔥'
+  120  PROMPT='🔥'  
+  121  PROMPT='🔥 :  '  
+  122  ls
+  123  cd ..
+  124  cd vanpana/.oh-my-zsh/
+  125  ls
+  126  ls -a
+  127  ls -l
+  128  pwd
+  129  da
+  130  claer
+  131  clear
+  132  git
+  133  say "ratnum"
+  134  say -v? 
+  135  say -v ? 
+  136  say -v
+  137  say -v 
+  138  say -v s
+  139  say
+  140  man say
+  141  exec bash
+  142  clear
+  143  history
+  144  clear
+  145  docker start mystore
+  146  alias ls="say \"I will murder you\" ; ls"
+  147  ls
+  148  exec bash
+  149  say -v ?
+  150  say -v Victoria da
+  151  say -v Ioana "Teo du-te-n pula mea
+  152  say -v Ioana "Teo du-te-n pula mea"
+  153  say -v Ioana "Teo, du-te-n pula mea"
+  154  say -v Ioana "Hello World"
+  155  say -v Ioana "Cos, Tel, Bi, Ju"
+  156  say -v Ioana "Cos, Te l, Bi, Ju"
+  157  say -v Yelda  "Cos, Te l, Bi, Ju"
+  158  cdan2sem1
+  159  ls
+  160  cd Re
+  161  cd Retele/
+  162  ls
+  163  cd tools
+  164  ls
+  165  mkdir readstring
+  166  mv client readstring/client
+  167  ls
+  168  mv client.c readstring/client.c
+  169  mv server.c readstring/server.c
+  170  mv server readstring/server
+  171  ls
+  172  mkdir intsum
+  173  ls
+  174  cd intsum
+  175  atom client.c
+  176  atom server.c
+  177  cd ..
+  178  ls
+  179  atom readstring/client.c
+  180  ls
+  181  cp readstring sendint
+  182  cd .
+  183  cdan2
+  184  cdan2sem1
+  185  ls
+  186  cd Re
+  187  cd Retele/Test16
+  188  la
+  189  ls
+  190  atom client.c
+  191  ping 172.30.116.143
+  192  ls
+  193  cdan2sem1
+  194  cd Retele/Test16
+  195  clang client.c -o client
+  196  ping 172.30.116.143
+  197  cdan2sem1
+  198  cd Retele/Test16
+  199  ping 172.30.116.143
+  200  ls
+  201  clang client.c -o client
+  202  ./client
+  203  clang client.c -o client
+  204  ./client
+  205  clang client.c -o client
+  206  ./client
+  207  clang client.c -o client
+  208  ./client
+  209  clang client.c -o client
+  210  ./client
+  211  clang client.c -o client
+  212  ./client
+  213  clang client.c -o client
+  214  ./client
+  215  clang client.c -o client
+  216  ./client
+  217  clang client.c -o client
+  218  ./client
+  219  clang client.c -o client
+  220  ./client
+  221  clang client.c -o client
+  222  ./client
+  223  cd solution
+  224  clang client.c -o client
+  225  ./
+  226  ./client
+  227  ./
+  228  clang client.c -o client
+  229  ./client
+  230  ping 172.30.116.143
+  231  cdan2sem1
+  232  cd Retele/Test16/solution
+  233  ls
+  234  clang server.c -o server
+  235  ./ser
+  236  ./server
+  237  clang client.c -o client
+  238  ls
+  239  clang client.c -o client
+  240  ./client
+  241  clang server.c -o server
+  242  ./client
+  243  clang server.c -o server
+  244  ./server
+  245  ./client
+  246  clang server.c -o server
+  247  ./client
+  248  ./server
+  249  ./client
+  250  clang server.c -o server
+  251  ./server
+  252  clang server.c -o server
+  253  ./server
+  254  clang client.c -o client
+  255  ./client
+  256  clang client.c -o client
+  257  ./x
+  258  ./client
+  259  history
+  260  man ping
+  261  sudo
+  262  sudo  ping -i 0.2 172.30.116.143
+  263  sudo  ping -i 0.01 172.30.116.143
+  264  sudo  ping -i 0.0000000001 172.30.116.143
+  265  cdan2sem1
+  266  ls
+  267  cd Retele/Test16/
+  268  ls
+  269  clang client.c -o client
+  270  ./cli
+  271  ./client
+  272  clang client.c -o client
+  273  ./client
+  274  clang client.c -o client
+  275  ./client
+  276  int c;\n    struct sockaddr_in server;\n    uint16_t a;\n    int id, converted_id, string_length;\n\n\n    c = socket(AF_INET, SOCK_STREAM, 0);\n    if (c < 0) {\n           printf("Error\n");\n           return 1;\n    }\n\n    memset(&server, 0, sizeof(server));\n    server.sin_port = htons(1234);\n    server.sin_family = AF_INET;\n    server.sin_addr.s_addr = inet_addr("172.30.116.143");\n\n    if (connect(c, (struct sockaddr *) &server, sizeof(server)) < 0) {\n           printf("Error\n");\n           return 1;\n    }
+  277  ping 172.30.116.143
+  278  alias sudo="say kneaz ; sudo"
+  279  sudo
+  280  sudo ping localhost
+  281  say -v Ioana "cneaz"
+  282  say -v Ioana "ești cneaz"
+  283  alias unalias="say -v Ioana \"cneaz\""
+  284  alias sudo="say -v Ioana cneaz ; sudo"
+  285  sudo ls
+  286  unalias
+  287  alias
+  288  unalias unalias
+  289  alias
+  290  sudo
+  291  unalias sudo
+  292  ping www.autovit.ro
+  293  exit
+  294  ls
+  295  mvn idea:idea
+  296  mvn compile
+  297  mvn clean
+  298  mvn install
+  299  docker stop mystore
+  300  ifconfig
+  301  clear
+  302  ifconfig
+  303  ping www.google.com
+  304  ifconfig
+  305  ps
+  306  ps -A
+  307  ps -A | grep "Logi"
+  308  kill 969
+  309  kill 1657
+  310  ifconfig
+  311  if
+  312  ifconfig
+  313  ls
+  314  cd Documents/
+  315  ls
+  316  cd IntelliJ
+  317  ls
+  318  cd JoinMe-Android
+  319  ls
+  320  git status
+  321  git checkout -b dorinel
+  322  git status
+  323  git add -A
+  324  git commit -m "dorinel gunoiul de aur"
+  325  git push
+  326  git push --set-upstream origin dorinel
+  327  it checkout master
+  328  git checkout master
+  329  git status
+  330  git pull
+  331  git status
+  332  git checkout dorinel 
+  333  git merge master
+  334  ifconfig
+  335  ls
+  336  git checkout master
+  337  git pull
+  338  git checkout dorinel
+  339  git merge master
+  340  git checkout master
+  341  git pull
+  342  git checkout dorinel
+  343  git merge master
+  344  git checkout dorinel
+  345  git statu
+  346  git status
+  347  git add -A
+  348  git commit ""
+  349  git commit "da"
+  350  git status
+  351  git commit -m "asdasdas"
+  352  git push
+  353  ifconfig
+  354  git checkout master
+  355  git pull
+  356  git checkout dorinel
+  357  git merge master
+  358  git checkout master
+  359  git pull
+  360  git checkout dorinel
+  361  git merge master
+  362  git checkout master
+  363  git pull
+  364  git checkout dorinel
+  365  git merge master
+  366  git status
+  367  /Users/vanpana/Library/Android/sdk/platform-tools/adb devices
+  368  ifconfig
+  369  ant
+  370  cd  /Users/vanpana/Desktop/pdf2htmltest
+  371  ls
+  372  java -jar /Users/vanpana/Desktop/pdf2htmltest/pdf2dom-1.6.jar  /Users/vanpana/Desktop/pdf2htmltest/39-micro-19.pdf 
+  373  java -jar PDFToHTML.jar 39-micro-19.pdf
+  374  ping 192.168.43.1
+  375  /Users/vanpana/Library/Android/sdk/platform-tools/adb  tcpip 5555
+  376  ping www.newyorkcrew.us
+  377  cdan2sem1
+  378  ls
+  379  cd DB
+  380  ls
+  381  mkdir lab8
+  382  ls
+  383  cd lab8
+  384  atom lab8 views.txt
+  385  docker start mystore
+  386  ssh x32nycr@newyorkcrew.us
+  387  ssh x32nycr@newyorkcrew.us:2083
+  388  ssh x32nycr@newyorkcrew.us -p2083
+  389  ssh x32nycr@newyorkcrew.us -p 2083
+  390  ssh x32nycr@newyorkcrew.us
+  391  ssh x32nycr@www.newyorkcrew.us
+  392  ssh x32nycr@37.251.157.71
+  393  ssh root@37.251.157.71
+  394  ssh root@www.newyorkcrew.us
+  395  ssh -p 2083 root@www.newyorkcrew.us
+  396  ssh -p 2083 x32nycr@www.newyorkcrew.us
+  397  ssh -p 2083 x32nycr@newyorkcrew.us./37.251.157.71
+  398  ssh -p 2083 x32nycr@37.251.157.71
+  399  ssh pdie2196@linux.ubbcluj.ro
+  400  ssh -p 2083 x32nycr@nycrewofficial.com
+  401  ssh root@nycrewofficial.com
+  402  ssh root@google.com
+  403  ssh root@newyorkcrew.us
+  404  ftp
+  405  ls
+  406  cd Desktop
+  407  ls
+  408  atom porcchanger.sh
+  409  sendemail
+  410  sendEmail
+  411  brew install sendEmail
+  412  sendmail
+  413  ssmtp
+  414  sendmail
+  415  sendEmail -f van.panaite@gmail.com -s test -m messageBody -s smtp.gmail.com -xu x1user@gmail.com -xp xxxxxpass -o tls=auto
+  416  sendEmail -f van.panaite@gmail.com -t van.panaite@gmail.com -s test -m messageBody -s smtp.gmail.com -xu x1user@gmail.com -xp xxxxxpass -o tls=auto
+  417  ls
+  418  cd D
+  419  \t\t\tcd Desktop
+  420  ls
+  421  hmod porcchanger.sh 
+  422  chmod porcchanger.sh 700
+  423  chmod ./porcchanger.sh 700
+  424  ls
+  425  ./porcchanger.sh
+  426  chmod ./porcchanger.sh 700
+  427  exec bash
+  428  ls
+  429  ./porc
+  430  ./porcchanger.sh
+  431  ipconfig
+  432  ifconfig
+  433  cdan2sem1
+  434  ls
+  435  cd PLF
+  436  ls
+  437  mkdir Sem6
+  438  cd Sem6
+  439  ls
+  440  atom sem.txt
+  441  exi
+  442  exit
+  443  cd Documents/Android
+  444  ls
+  445  cd New-York-Crew-Android
+  446  ls
+  447  git
+  448  git status
+  449  git add -A
+  450  git checkout master
+  451  git push
+  452  git checkout login
+  453  git pull
+  454  git checkout login
+  455  git push
+  456  git checkout master
+  457  git checkout login
+  458  git checkout master
+  459  git merge login
+  460  git push
+  461  git checkout login
+  462  cd Documents/Android
+  463  ls
+  464  cd New-York-Crew-Android
+  465  ls
+  466  git add -A
+  467  git checkout master
+  468  git merge login
+  469  git push
+  470  git checkout login 
+  471  git pull
+  472  cdan2sem1
+  473  ls
+  474  cdan2sem1
+  475  ls
+  476  ls -a
+  477  cd ..
+  478  ls
+  479  cd 
+  480  ls
+  481  ls -a
+  482  vim .zsh
+  483  vim .zshrc
+  484  atom .zshrc
+  485  cdan2sem1
+  486  ls
+  487  exit
+  488  cdan2sem1
+  489  ls
+  490  cd PLF
+  491  ls
+  492  cd Sem6
+  493  ls
+  494  cd ..
+  495  cd sem4
+  496  ls
+  497  atom introlisp
+  498  clisp
+  499  brew install clisp
+  500  clisp
+  501  cd /usr/local/Cellar/clisp/2.49_1
+  502  ls
+  503  bin
+  504  ls -a
+  505  clisp
+  506  ./clisp
+  507  cdan2sem1
+  508  l
+  509  ls
+  510  cd PLF/LISP/Lab1
+  511  ls
+  512  atom 1.lisp
+  513  cdan2sem1
+  514  cd PLF/LISP/Lab1
+  515  ls
+  516  atom 13_2.lisp
+  517  mvn compile war:war
+  518  cdan2sem1
+  519  cd PLF/LISP/Lab1
+  520  ls
+  521  atom 13_3.lisp
+  522  cdan2sem1
+  523  cd PLF
+  524  cd 
+  525  ls
+  526  cdan2sem1
+  527  cd PLF/LISP/Lab1
+  528  ls
+  529  atom lisp 13_4.lisp
+  530  cdan2sem1
+  531  ls
+  532  cd PLF/LISP/Lab1
+  533  ls
+  534  atom *
+  535  kill all Finder
+  536  exec bash
+  537  killall Finder
+  538  an2
+  539  cdan2sem1
+  540  ls
+  541  cd PLF/LISP/
+  542  mkdir Lab2
+  543  cd Lab2
+  544  atom 4.lisp
+  545  cd ..
+  546  ls
+  547  cd Lab1
+  548  ls
+  549  atom Lab1-Lisp.txt
+  550  docker start mystore
+  551  cd
+  552  opt/mssql-tools/bin/sqlcmd -H localhost -U SA -P "MYpasswordISverySTRONG42" -Q "BACKUP DATABASE Store TO DISK = N'var/opt/mssql/data/mystore11122017.bak' WITH NOFORMAT, NOINIT, NAME = 'mystore-full', SKIP, NOREWIND, NOUNLOAD, STATS = 10”
+  553  docker exec mystore "bash"
+  554  docker
+  555  docker exec
+  556  docker exec mystore
+  557  docker exec mystore "bash"
+  558  exec bash
+  559  docker cp 7e3f65cd1567:/var/opt/mssql/data/mystore11122017.bak /Users/vanpana/Desktop/mystore11122017.bak\n
+  560  man ls
+  561  docker exec -it mystore "bash"
+  562  docker cp 7e3f65cd1567:/var/opt/mssql/data/mystore11122017.bak /Users/vanpana/Desktop/mystore11122017.bak
+  563  ifconfig
+  564  ipconfig 
+  565  ifconfig
+  566  ping www.google.com
+  567  ping 79.115.171.232
+  568  docker start mystore
+  569  cdan2sem1 
+  570  ls
+  571  cd MAP
+  572  ls
+  573  cd Lab2/Toy-language-interpretor/
+  574  ls
+  575  git add -A
+  576  git checkout master
+  577  git merge concurrent
+  578  git push
+  579  mysql
+  580  cd
+  581  ls
+  582  ssh root@www.myeasywares.com
+  583  ssh root@166.62.103.37
+  584  ssh waresboss@166.62.103.37
+  585  exec bash
+  586  mvn clean
+  587  mvn idea:idae
+  588  mvn idea:idea
+  589  cd Documents/EasyWares/easywares-srv
+  590  ls
+  591  git add -A
+  592  git commit
+  593  git checkout master
+  594  git merge Entities
+  595  git push
+  596  git checkout entities
+  597  git checkout Entities
+  598  git pull
+  599  git commit
+  600  git checkout master
+  601  git merge Entities
+  602  git push
+  603  dig www.myeasywares.com MX
+  604  dig mail.myeasywares.com MX
+  605  dig myeasywares.com MX
+  606  ls
+  607  git add -A
+  608  git checkout master
+  609  git commit
+  610  git checkout master
+  611  git merge user-repo
+  612  git push
+  613  git status
+  614  git merge master
+  615  git status
+  616  git checkout master
+  617  git status
+  618  git add -A
+  619  git checkout master
+  620  git checkout Logging
+  621  atom .gitignore
+  622  git checkout master
+  623  git merge login
+  624  git push
+  625  git merge master
+  626  git checkout login
+  627  git merge master
+  628  git add -A
+  629  git merge master
+  630  git commit
+  631  git merge master
+  632  git push
+  633  git checkout master
+  634  git merge login
+  635  git push
+  636  ssh root@166.62.103.37
+  637  ssh waresboss@166.62.103.37
+  638  cd Documents/EasyWares/easywares-srv
+  639  ls
+  640  git status
+  641  mvn idea:idea
+  642  ifconfig
+  643  ssh waresboss@166.62.103.37
+  644  mvn clean install
+  645  cd /Users/vanpana/Documents/EasyWares/easywares-srv/target/easywares-srv/META-INF/
+  646  atom context.xml
+  647  /Users/vanpana/Downloads/apache-tomcat-8.5.24/bin/catalina.sh 
+  648  cd /Users/vanpana/Downloads/apache-tomcat-8.5.24/bin/ 
+  649  chmod 700 catalina.sh
+  650  ls
+  651  ./catalina.sh
+  652  ./catalina.sh run
+  653  ssh waresboss@166.62.103.37
+  654  ./catalina.sh run
+  655  mvn war:exploded tomcat:exploded
+  656  ssh waresboss@166.62.103.37
+  657  ./catalina.sh run
+  658  ssh waresboss@166.62.103.37
+  659  java
+  660  mvn idea:idea
+  661  mvn clean:clean
+  662  mvn install:install
+  663  mvn vaadin:update-widgetset
+  664  mvn vaadin:update-theme
+  665  mvn install
+  666  cd Downloads/apache-tomcat-7.0.42
+  667  chmod a+x bin/catalina.sh
+  668  mvn idea
+  669  mvn idea:idea
+  670  ssh waresboss@166.62.103.37
+  671  chmod a+x bin/catalina.sh
+  672  ssh waresboss@166.62.103.37
+  673  ls
+  674  ssh waresboss@166.62.103.37
+  675  cd Des
+  676  \t\t\tcd Desktop
+  677  ls
+  678  pwd
+  679  sudo spctl --master-disable
+  680  cd Applications
+  681  ls
+  682  cd ../
+  683  ls
+  684  cd 
+  685  cd /
+  686  ls
+  687  cd Volumes/Little\ Mac/Applications/Final\ Cut\ Pro.app
+  688  cd Contents/MacOS
+  689  ls
+  690  chmod +x Final\ Cut\ Pro
+  691  chmod +x *
+  692  cd ../../
+  693  ls
+  694  cd ..//
+  695  ls
+  696  chmod +x Final\ Cut\ Pro.app/Contents/MacOS/*
+  697  /Volumes/Final\ Cut\ Pro\ 10.4/Open\ Gatekeeper\ friendly ; exit;
+  698  sudo /Volumes/Final\ Cut\ Pro\ 10.4/Open\ Gatekeeper\ friendly 
+  699  /Applications/Final\ Cut\ Pro.app/Contents/MacOS/Final\ Cut\ Pro ; exit;
+  700  exec bash
+  701  /Applications/Final\ Cut\ Pro.app/Contents/MacOS/Final\ Cut\ Pro ; exit;
+  702  sudo spctl --master-enable
+  703  sudo spctl --master-disable
+  704  rqe321
+  705  sudo spctl --master-disable
+  706  /Volumes/Final\ Cut\ Pro\ 10.4\ 1/Final\ Cut\ Pro.app/Contents/MacOS/Final\ Cut\ Pro ; exit;
+  707  /Volumes/Final\ Cut\ Pro\ 10.4/Open\ Gatekeeper\ friendly ; exit;
+  708  history
+  709  sudo spctl --master-disable
+  710  sudo spctl --master-enable
+  711  diskutil list
+  712  ls
+  713  diskutil list
+  714  sudo diskutil eraseDisk FAT32 MYUSB  MBRFormat /dev/disk4
+  715  openssl
+  716  man openssl
+  717  openssl genrsa -out rsa.private 1024
+  718  cat rsa.private
+  719  pwd
+  720  cat rsa.private
+  721  openssl genrsa -out rsa.private 1024
+  722  cat rsa.private
+  723  openssl genrsa -out rsa.private 1024
+  724  openssl genrsa -out rsa.private 256
+  725  cat rsa.private
+  726  openssl genrsa -out rsa.private 64
+  727  cat rsa.private
+  728  openssl genrsa -out rsa.private 128
+  729  cat rsa.private
+  730  openssl genrsa -out rsa.private 120
+  731  cat rsa.private
+  732  openssl genrsa
+  733  openssl genrsa -der
+  734  openssl genrsa -des3
+  735  openssl genrsa -des3 -out rsa.private 2048
+  736  cat rsa.private
+  737  openssl genrsa -des3 -outform DER -out rsa.private 2048
+  738  openssl ra
+  739  openssl rsa
+  740  openssl rsa -out rsa.private -outform DER
+  741  openssl rsa -pubout -out rsa.private -outform DER
+  742  openssl genrsa -out rsa.private 1024
+  743  openssl rsa -in rsa.private -pubout -outform DER -out rsader.private
+  744  cat rsader.private
+  745  pwd
+  746  killall Dock
+  747  xattr -rc /Applications/STAMP.app
+  748  /Volumes/dist/pyportify-copyall ; exit;
+  749  /Volumes/dist/pyportify-copyall 
+  750  $ curl -X POST https://textbelt.com/text \\n       --data-urlencode phone='+40747428641' \\n       --data-urlencode message='Hello world' \\n       -d key=textbelt
+  751  curl -X POST https://textbelt.com/text \\n       --data-urlencode phone='+40747428641' \\n       --data-urlencode message='Hello world' \\n       -d key=textbelt
+  752  curl -X POST http://textbelt.com/text \\n   -d number=+40747428641 \\n   -d "message=I sent this message for free with textbelt.com"
+  753  cdan2sem1
+  754  ls
+  755  cd PLF/LISP
+  756  ls
+  757  mkdir Lab3
+  758  cd Lab
+  759  cd Lab3
+  760  atom pb1.lisp
+  761  cd
+  762  docker start mystore
+  763  docker mystore exec -it "bash"
+  764  docker exec -it mystore "bash"
+  765  docker cp 7e3f65cd1567:/var/opt/mssql/data/mystore05012018.bak /Users/vanpana/Desktop/mystore11122017.bak
+  766  docker cp 7e3f65cd1567:./var/opt/mssql/backup/mystore05012018.bak /Users/vanpana/Desktop/mystore11122017.bak\n
+  767  docker cp 7e3f65cd1567:./var/opt/mssql/backup/mystore05012018.bak /Users/vanpana/Desktop/mystor05012018.bak\n
+  768  ifconfig
+  769  docker start mystore
+  770  cdan2sem1
+  771  ls
+  772  cd PLF/LISP/Lab3
+  773  ;s
+  774  ls
+  775  atom pb1.lisp
+  776  docker start mystore
+  777  ifconfig
+  778  docker start mystore
+  779  docker exec -it mystore "bash"
+  780  docker start mystore
+  781  ifconfig 
+  782  ifconfig
+  783  docker mystore
+  784  docker start mysotre
+  785  docker start mystore
+  786  docker exec -it mystore "bash"
+  787  docker start mys
+  788  docker start mystore
+  789  docker exec -it mystore "bash"
+  790  cdan2sem1
+  791  cd DB
+  792  ls
+  793  mkdir Practic
+  794  cd Practic
+  795  atom practic.sql
+  796  mvn war:war
+  797  ssh waresboss@myeasywares.com
+  798  mvn war:war
+  799  if
+  800  ifconfig
+  801  mvn war:war
+  802  cd Desktop
+  803  ls
+  804  chmod 700 pe
+  805  chmod 700 permwhenchanged.sh
+  806  ./p
+  807  ./permwhenchanged.sh
+  808  cd /home
+  809  ls
+  810  cd /
+  811  ls
+  812  cd /home
+  813  mkdir mew69adm
+  814  sudo su
+  815  ./permwhenchanged.sh
+  816  ./permwhenchanged.sh da
+  817  ./permwhenchanged.sh /Desktop/chat
+  818  ./permwhenchanged.sh /Desktop/chat/
+  819  ./permwhenchanged.sh /chat/
+  820  ./permwhenchanged.sh chat/
+  821  man if
+  822  man comp
+  823  ./permwhenchanged.sh chat/
+  824  ps
+  825  ps -U vanpana
+  826  ps -a
+  827  top
+  828  ps -A
+  829  ps -A | cat "permwhenchanged"
+  830  ps -A | grep "permwhenchanged"
+  831  mvn war:war
+  832  keytool -list -keystore
+  833  keytool -list -keystore /Users/vanpana/Documents/EasyWares/android_key 
+  834  keytool -exportcert -alias key0 -keystore /Users/vanpana/Documents/EasyWares/android_key  | openssl sha1 -binary | openssl base64
+  835  ssh waresboss@myeasywares.com
+  836  mvn war:war
+  837  ssh waresboss@myeasywares.com
+  838  mvn war:war
+  839  ls
+  840  ifconfig
+  841  man curl
+  842  curl -F 'client_id=85bb4b629648460eb18174015697bb26' \\n    -F 'client_secret=f24e3f968b934962bb19177c4c7cb2a9' \\n    -F 'grant_type=authorization_code' \\n    -F 'redirect_uri=http://www.myeasywares.com' \\n    -F 'code=54b4cdf40b3b4e1ba20d958e23539faa' \\n    https://api.instagram.com/oauth/access_token
+  843  curl -F 'client_id=85bb4b629648460eb18174015697bb26' \\n    -F 'client_secret=f24e3f968b934962bb19177c4c7cb2a9' \\n    -F 'grant_type=authorization_code' \\n    -F 'redirect_uri=http://www.myeasywares.com' \\n    -F 'code=5b36a32c4fbb44948111a1c323e30384' \\n    https://api.instagram.com/oauth/access_token
+  844  curl -v -F 'client_id=85bb4b629648460eb18174015697bb26' \\n    -F 'client_secret=f24e3f968b934962bb19177c4c7cb2a9' \\n    -F 'grant_type=authorization_code' \\n    -F 'redirect_uri=http://www.myeasywares.com' \\n    -F 'code=5b36a32c4fbb44948111a1c323e30384' \\n    https://api.instagram.com/oauth/access_token
+  845  ifconfig
+  846  ssh waresboss@myeasywares.com
+  847  ifconfig
+  848  ping www.google.com
+  849  ssh waresboss@myeasywares.com
+  850  ifconfig
+  851  mvn war:war
+  852  ssh waresboss@myeasywares.com
+  853  mvn war:war
+  854  ssh waresboss@myeasywares.com
+  855  mvn war:war
+  856  war:war
+  857  mvn war:war
+  858  ssh waresboss@myeasywares.com
+  859  mvn war:war
+  860  ssh waresboss@myeasywares.com
+  861  mvn war:war
+  862  gradle init -type pom
+  863  brew install gradle
+  864  gradle init -type pom
+  865  gradle init
+  866  ls
+  867  run gradle init
+  868  gradle init
+  869  ifconfig
+  870  git add -A
+  871  git push -m "added gitignore:
+  872  git push -m "added gitignore"
+  873  git commit -m "added gitignore"
+  874  git push
+  875  git rebase 
+  876  git status
+  877  git stash
+  878  git pull
+  879  git status
+  880  git pull --rebase
+  881  git status
+  882  git pull --rebase
+  883  git status
+  884  git pull origin/master
+  885  git pull master --rebase
+  886  git stash
+  887  git pull
+  888  git log
+  889  git checkout 78cbfc6dacb6906e62e9b4c51adf59a1bab84427 
+  890  git status
+  891  git checkout master
+  892  git status
+  893  git checkout .
+  894  git status
+  895  git pull
+  896  git log
+  897  git checkout 78cbfc6dacb6906e62e9b4c51adf59a1bab84427
+  898  git status
+  899  git checkout head
+  900  git reset -hard origin/master
+  901  git reset --hard origin/master
+  902  git status
+  903  git fetch origin 
+  904  git reset --hard origin/master
+  905  git status
+  906  git pull
+  907  git checkout master
+  908  git fetch origin 
+  909  git reset --hard origin/master
+  910  git status
+  911  git pull --rebase origin develop
+  912  git stash
+  913  git pull --rebase origin develop
+  914  git checout develop
+  915  git checkout develop
+  916  git status
+  917  git checkout -b "dorinel/print-my-name"
+  918  git status
+  919  git add -A
+  920  git commit -m "Added my name"
+  921  git push
+  922  git push --set-upstream origin dorinel/print-my-name
+  923  git status
+  924  echo $HOME
+  925  echo $ZSH
+  926  atom $ZSH
+  927  atom $HOME/.zshrc
+  928  gaa
+  929  cd Downloads/license
+  930  ..
+  931  ls
+  932  ...
+  933  ls
+  934  cd vanpana
+  935  ..
+  936  ls
+  937  atom $HOME/.zshrc
+  938  exit
+  939  ls
+  940  sudo apt-get install fonts-powerline
+  941  brew install fonts-powerline
+  942  atom $HOME/.zshrc
+  943  quit
+  944  exit
+  945  cd $ZSH_THEME
+  946  cd $ZSH
+  947  ls
+  948  cd themes
+  949  ls
+  950  exit
+  951  gradle ver
+  952  gradle -v
+  953  [200~cd ~ ; source ./.oh-my-zsh/themes/agnoster.
+  954  cd ~ ; source ./.oh-my-zsh/themes/agnoster.zsh-theme
+  955  ls
+  956  cd
+  957  find . -name "*grml-zsh-config*"
+  958  [200~cd ~ ; source ./.oh-my-zsh/themes/agnoster.c
+  959  cd $ZSH
+  960  ls
+  961  cd /Volumes/Little\ Mac/Users/vanpana/
+  962  ls
+  963  cd OneDrive
+  964  exit
+  965  cdan2sem2
+  966  ld
+  967  ls
+  968  cd SDI/Lab
+  969  ls
+  970  cd lab01
+  971  ls
+  972  cd ~ ; source ./.oh-my-zsh/themes/agnoster.zsh-theme
+  973  ls
+  974  cdan2sem2
+  975  l
+  976  cd SDI/Lab/lab01
+  977  cd ~ ; source ./.oh-my-zsh/themes/agnoster.zsh-theme
+  978  cdan2sem2
+  979  cd $ZSH
+  980  ls
+  981  cd plugins
+  982  ls
+  983  l
+  984  l | grep "grml"
+  985  ..
+  986  ;s
+  987  ls
+  988  cd tools
+  989  ls
+  990  ..
+  991  cd
+  992  ;s
+  993  l
+  994  cd Do
+  995  cd Downloads/fonts-master
+  996  ls
+  997  ./in
+  998  ./install.sh
+  999  cd ~ ; source ./.oh-my-zsh/themes/agnoster.zsh-theme
+ 1000  cd $HOME/.oh-my-zsh
+ 1001  ls
+ 1002  mate ~/.zshrc
+ 1003  atom ~/.zshrc
+ 1004  atom ~/.oh-my-zsh
+ 1005  echo $ZSH_THEME
+ 1006  h
+ 1007  history
+ 1008  man source
+ 1009  cd ~ ; source ./.oh-my-zsh/themes/agnoster.zsh-theme
+ 1010  cdan2sem2 
+ 1011  cd SDI/Lab/lab01
+ 1012  cd ~ ; source ./.oh-my-zsh/themes/agnoster.zsh-theme
+ 1013  ls
+ 1014  atom ~/.zshrc
+ 1015  cd $ZSH
+ 1016  ls
+ 1017  cd themes
+ 1018  ls
+ 1019  atom agnoster.zsh-theme
+ 1020  cdan2sem2
+ 1021  d 
+ 1022  ls
+ 1023  cd SDI/Lab/lab01
+ 1024  exit
+ 1025  cd Desktop
+ 1026  exit
+ 1027  cdan2sem2
+ 1028  ls
+ 1029  md Web
+ 1030  cd Web
+ 1031  ls
+ 1032  md Lab01
+ 1033  atom index.html
+ 1034  safari index.html
+ 1035  index.html
+ 1036  ./index.html
+ 1037  open
+ 1038  open index.html
+ 1039  clear
+ 1040  ls
+ 1041  l
+ 1042  gradle
+ 1043  gradle --help
+ 1044  open index.html
+ 1045  ..
+ 1046  cd SDI/Lab/bookstore
+ 1047  git pull
+ 1048  git gcb dorinel/client-data
+ 1049  gs
+ 1050  gst
+ 1051  git stash
+ 1052  git rebase develop
+ 1053  git status
+ 1054  git checkout develop
+ 1055  git pull
+ 1056  git checkout dorinel/client-data
+ 1057  git rebase develop
+ 1058  git status
+ 1059  cd $HOME
+ 1060  ls
+ 1061  git checkout dorinel/struct
+ 1062  cd Documents/Personal/Programming/goworkshop
+ 1063  gcb json-and-stuff
+ 1064  gaa 
+ 1065  gcmsg "added json and read from it"
+ 1066  ggp
+ 1067  gcmsg serialised data"
+ 1068  gcmsg" serialised data"
+ 1069  gcmsg "serialized data"
+ 1070  gpp
+ 1071  ggp
+ 1072  gcb master
+ 1073  gc main/
+ 1074  gc master
+ 1075  git checkout master
+ 1076  git add -A
+ 1077  gcmsg "serialized data"
+ 1078  ggp
+ 1079  git checkout master
+ 1080  gcb dorinel/read-from-file
+ 1081  ...
+ 1082  ..
+ 1083  cd $HOME/Documents/Pro
+ 1084  cd $HOME/Documents/Prog
+ 1085  cd $HOME/Documents/Personal/Programming/gowshop
+ 1086  ls
+ 1087  cd src
+ 1088  ls
+ 1089  cd goworkshop
+ 1090  ls
+ 1091  gcb dorinel/read-to-model
+ 1092  gaa
+ 1093  gpp
+ 1094  gcm "read from files"
+ 1095  gcm
+ 1096  git checkout dorinel/read-to-model
+ 1097  git status
+ 1098  gcmsg "read data from file"
+ 1099  ggp
+ 1100  git status
+ 1101  gaa
+ 1102  gcmsg "added webserver to GET books and authors"
+ 1103  gpp
+ 1104  ggp
+ 1105  gaa
+ 1106  git status
+ 1107  gcmsg
+ 1108  gcmsg "created client model, repo interface, repo, file repo and CRUD"
+ 1109  ggp
+ 1110  mvn war:war
+ 1111  ifconfig
+ 1112  cdan2sem2
+ 1113  ls
+ 1114  cd SDI/Lab/bookstore
+ 1115  ls
+ 1116  gaa
+ 1117  gcmsg "Changed from arraylist to map"
+ 1118  git push
+ 1119  git push --set-upstream origin dorinel/client-data
+ 1120  cdan2sem2
+ 1121  ls
+ 1122  md AI
+ 1123  ls
+ 1124  cd AI
+ 1125  ;s
+ 1126  l
+ 1127  gaa
+ 1128  gcmsg "can read clients from file and parse the JSON"
+ 1129  ggp
+ 1130  gaa
+ 1131  gcmsg "finished writing to file"
+ 1132  ggp
+ 1133  gaa
+ 1134  gcmsg "Created controller functions"
+ 1135  ggp
+ 1136  git checkout develop
+ 1137  pull
+ 1138  git pull
+ 1139  git checkout dorinel/client-data
+ 1140  git rebase --help
+ 1141  git rebase develop
+ 1142  git rebase --abort
+ 1143  gaa
+ 1144  gcmsg "rebased from new develop"
+ 1145  ggp
+ 1146  git pull
+ 1147  git stash
+ 1148  git pull
+ 1149  git status
+ 1150  git log
+ 1151  git push
+ 1152  gaa
+ 1153  gcmsg "Created Client commands and added them to the View"
+ 1154  ggp
+ 1155  gaa
+ 1156  gcmsg "Fixed input bug"
+ 1157  push
+ 1158  ggp
+ 1159  gaa
+ 1160  gcmsg "changed how client id is fetched"
+ 1161  ggp
+ 1162  git checkout develop
+ 1163  pull
+ 1164  git pull
+ 1165  gcb dorinel/tests-for-clients
+ 1166  heroku login
+ 1167  l
+ 1168  cd Documents
+ 1169  ls
+ 1170  cd Personal
+ 1171  ls
+ 1172  cd Programming
+ 1173  ls
+ 1174  md Herokutest
+ 1175  cd Herokutest
+ 1176  ls
+ 1177  git clone https://github.com/heroku/gradle-getting-started.git
+ 1178  cd gradle-getting-started
+ 1179  ls
+ 1180  heroku create
+ 1181  git push heroku master
+ 1182  heroku ps:scale web=1
+ 1183  heroku open
+ 1184  heroku addons:create heroku-postgresql
+ 1185  heroku config
+ 1186  git checkout develop
+ 1187  git branch -D dorinel/tests-for-clients
+ 1188  gcb dorinel/database-connection
+ 1189  git status
+ 1190  git stash
+ 1191  git checkout develop
+ 1192  git branch -D dorinel/database-connection
+ 1193  gcb dorinel/database-connection
+ 1194  git checkout develop
+ 1195  git branch -D dorinel/database-connection
+ 1196  gcb dorinel/json-to-xml
+ 1197  git status
+ 1198  git stash
+ 1199  git checkout develop
+ 1200  pull
+ 1201  git pull
+ 1202  git status
+ 1203  gs
+ 1204  gst
+ 1205  gaa
+ 1206  gcmsg "renamed client variables and added javadoc to most of the methods"
+ 1207  ggp
+ 1208  gcb "dorinel/tests"
+ 1209  gaa
+ 1210  gcmsg "Testing for client / Fix for NPE when setting the client map"
+ 1211  ggsup
+ 1212  gg
+ 1213  ggp
+ 1214  gaa
+ 1215  gcmsg "full coverage for client"
+ 1216  ggp
+ 1217  ifconfig
+ 1218  cd Documents/EasyWares/easywares-android
+ 1219  ls
+ 1220  git pull
+ 1221  git status
+ 1222  git stash
+ 1223  git status
+ 1224  ifconfig
+ 1225  git status
+ 1226  git checkout alpha
+ 1227  git branch -D user
+ 1228  ssh waresboss@myeasywares.com
+ 1229  cdan2sem2
+ 1230  cd AI/sudoku-solver/
+ 1231  ls
+ 1232  gaa
+ 1233  gcmsg "Created hello world"
+ 1234  push
+ 1235  ggp
+ 1236  gaa
+ 1237  gcmsg "created file structure"
+ 1238  ggp
+ 1239  gcb "develop"
+ 1240  gcb "read-from-file"
+ 1241  cd Documents/Personal/Programming/gowshop
+ 1242  ls
+ 1243  cd src
+ 1244  ls
+ 1245  cd goworkshop
+ 1246  ls
+ 1247  gaa
+ 1248  gcmsg "added more stuff to server"
+ 1249  ggp
+ 1250  gaa
+ 1251  gcmsg "Created post to add author"
+ 1252  ggp
+ 1253  ls
+ 1254  gaa
+ 1255  ggmsg "created route"
+ 1256  ggp
+ 1257  git checkout master
+ 1258  git status
+ 1259  gcmsg "created route"
+ 1260  ggp
+ 1261  checkout master
+ 1262  git checkout master
+ 1263  git fetch upstream
+ 1264  git fetch upstream/master
+ 1265  git fetch
+ 1266  git merge upstream/master
+ 1267  git pull
+ 1268  gcb dorinel/author-methods
+ 1269  git status
+ 1270  gaa
+ 1271  gcmsg "Converted from list to map"
+ 1272  ggp
+ 1273  gaa
+ 1274  gcmsg "delete an author"
+ 1275  ggp
+ 1276  gaa
+ 1277  gcmsg "updating author"
+ 1278  ggp
+ 1279  docker run -p 5432:5432 --name postgres-db -d 10.2.4.201/postgres:2.48
+ 1280  docker run -p 5432:5432 --name postgres-db -d 10.2.4.201/postgres:latest
+ 1281  docker search "postgres"
+ 1282  sudo dockerpull postgres
+ 1283  sudo docker pull postgres
+ 1284  docker run -p 5432:5432 --name postgres-db -d 10.2.4.201/postgres:latest
+ 1285  docker run -p 5432:5432 --name postgres-db -d postgres:latest
+ 1286  sudo docker ps -a
+ 1287  docker exec -it posgres-db "bash"
+ 1288  docker exec -it postgres-db "bash"
+ 1289  ls
+ 1290  cd tools/ubuntu/db
+ 1291  ls
+ 1292  ./create_db.sh
+ 1293  docker ps -a
+ 1294  docker stop 9ced7f5eb340
+ 1295  docker start ee75247d710c
+ 1296  docker ps -a
+ 1297  docker stop
+ 1298  cd
+ 1299  cdan2sem2
+ 1300  ls
+ 1301  cd AI/sudoku-solver
+ 1302  ls
+ 1303  gaa
+ 1304  gcmsg "read from file and created missing numbers"
+ 1305  ggp
+ 1306  gaa
+ 1307  gcmsg "added 9x9 matrix and problem getter"
+ 1308  ggp
+ 1309  gaa
+ 1310  gcmsg "check problem validity"
+ 1311  ggp
+ 1312  gaa
+ 1313  gcmsg "last touches to files"
+ 1314  ggp
+ 1315  checkout develip
+ 1316  git checkout develop
+ 1317  ls
+ 1318  git pus
+ 1319  git push
+ 1320  git push --set-upstream origin develop
+ 1321  git pull
+ 1322  git branch -D read-from-file
+ 1323  sudo /bin/sh -x
+ 1324  mvn war:war
+ 1325  gaa
+ 1326  git status
+ 1327  gcmsg "Fixed transaction query"
+ 1328  ggp
+ 1329  cd
+ 1330  cdan2sem2
+ 1331  ls
+ 1332  cd SDI/Lab/bookstore/
+ 1333  ls
+ 1334  git status
+ 1335  gaa
+ 1336  gcmsg "client test"
+ 1337  ggp
+ 1338  git checkout -b Teo/Books
+ 1339  git pull
+ 1340  git pull origin/teo/Books
+ 1341  git pull teo/Books
+ 1342  git pull origin/teo/Books
+ 1343  git checkout develop
+ 1344  git pull
+ 1345  git branch -D Teo/Books
+ 1346  cdan2sem2
+ 1347  ls
+ 1348  cd AI/sudoku-solver/
+ 1349  ls
+ 1350  gcb "expand"
+ 1351  gaa
+ 1352  gcmsg "created expand function"
+ 1353  ggp
+ 1354  mvn war:war
+ 1355  ls
+ 1356  ssh waresboss@myeasywares.com
+ 1357  cdan2sem2
+ 1358  ls
+ 1359  cd AI/sudoku-solver/
+ 1360  gaa
+ 1361  gcmsg "bfs working for 4x4"
+ 1362  ggp
+ 1363  gaa
+ 1364  gcmsg "Optimised expand function"
+ 1365  gg
+ 1366  ggp
+ 1367  git status
+ 1368  git stash
+ 1369  git status
+ 1370  git stash
+ 1371  git status
+ 1372  git stash
+ 1373  gcb new-expand
+ 1374  gaa
+ 1375  gcmsg "tried new method to generate children"
+ 1376  ggp
+ 1377  gaa
+ 1378  gcmsg "solving sudoku with < 30 missing numbers"
+ 1379  ggp
+ 1380  git status
+ 1381  cdan2sem2
+ 1382  ls
+ 1383  cd SDI/Lab
+ 1384  ls
+ 1385  cd bookstore
+ 1386  ls
+ 1387  git pull
+ 1388  git statu
+ 1389  git status
+ 1390  gcb dorinel/modify-repo
+ 1391  ls
+ 1392  gaa
+ 1393  gcmsg "altered client structure"
+ 1394  ggp
+ 1395  gaa
+ 1396  gcmsg "added validator structure"
+ 1397  ggp
+ 1398  gaa
+ 1399  gcmsg "added client validator (id, name, dob and city)"
+ 1400  ggp
+ 1401  gaa
+ 1402  gcmsg "completed but not tested file repository. created serializer and deserializer interfaces and implemented CSV (de)serializers for book and client"
+ 1403  ggp
+ 1404  ls
+ 1405  cd 
+ 1406  cd Documents/EasyWares/easywares-srv
+ 1407  ls
+ 1408  cd ../
+ 1409  ls
+ 1410  cd easywares-android
+ 1411  ls
+ 1412  git status
+ 1413  mvn war:war
+ 1414  ssh waresboss@myeasyware.com
+ 1415  ssh waresboss@myeasywares.com
+ 1416  mvn war:war
+ 1417  mvn war:ar
+ 1418  mvn war:war
+ 1419  ssh waresboss@myeasywares.com
+ 1420  cd 
+ 1421  cdan2sem2
+ 1422  ls
+ 1423  cd Web
+ 1424  ls
+ 1425  md Lab02
+ 1426  cd Lab0
+ 1427  cd Lab02
+ 1428  ls
+ 1429  atom .
+ 1430  mvn war:war
+ 1431  ls
+ 1432  open index.html
+ 1433  mvn war:war
+ 1434  cdan2sem2
+ 1435  ls
+ 1436  cd AI/sudoku-solver/
+ 1437  ls
+ 1438  git status
+ 1439  cd Documents/Personal/Programming
+ 1440  ls
+ 1441  cd gowshop
+ 1442  ls
+ 1443  cd src
+ 1444  ls
+ 1445  cr goworkshop
+ 1446  cd goworkshop
+ 1447  ls
+ 1448  git status
+ 1449  gaa
+ 1450  gcmsg "last commit"
+ 1451  ggp
+ 1452  docker ps
+ 1453  docker ps -a
+ 1454  docker start ee75247d710
+ 1455* gaa
+ 1456* gcmsg "updated all endpoints"
+ 1457* ggp
+ 1458* git checkout maseter
+ 1459* git checkout master
+ 1460* git remote -v
+ 1461* git remote add origin-fork https://github.com/alexandrugrigor/goworkshop.git
+ 1462* emote -v
+ 1463* git remote -v
+ 1464* git fetch origin-fork
+ 1465* gcb forked_branch origin-fork/master
+ 1466* git stash
+ 1467* gcb forked_branch origin-fork/master
+ 1468* git status
+ 1469* git log
+ 1470* git checkout master
+ 1471* git cherry-pick -XS f38677209bae91f7810343cc46abc07824806dec
+ 1472* git status
+ 1473* git cherry-pick --continue
+ 1474* gaa
+ 1475* gcmsg "fixed conflicts"
+ 1476* git cherry-pick --continue
+ 1477* git cherry-pick -XS f38677209bae91f7810343cc46abc07824806dec
+ 1478* git status
+ 1479* gaa
+ 1480* gcmsg "other conflicts fixed"
+ 1481* ggp
+ 1482* git cherry-pick --continue
+ 1483* git cherry-pick -XS f38677209bae91f7810343cc46abc07824806dec
+ 1484* git status
+ 1485* gaa
+ 1486* gcsmg "conflicts???"
+ 1487* gcmsg "conflicts???"
+ 1488* git status
+ 1489* ggp
+ 1490* git log
+ 1491* git checkout origin-fork/master 
+ 1492* git stash
+ 1493* git checkout origin-fork/master 
+ 1494* git status
+ 1495* git checkout master
+ 1496* git status
+ 1497* git checkout origin-fork/master 
+ 1498* git log
+ 1499* git checkout master
+ 1500* git cherry-pick -XS f38677209bae91f7810343cc46abc07824806dec
+ 1501* git status
+ 1502* git cherry-pick --continue
+ 1503* git log
+ 1504* git rebase -i HEAD~2
+ 1505* git checkout origin-fork/master 
+ 1506* git log
+ 1507* git checkout master
+ 1508* git cherry-pick -XS e1d35031de8be0aa759116e0b1fb9c312d07442a
+ 1509* git status
+ 1510* git cherry-pick --continue
+ 1511* git checkout origin-fork/master 
+ 1512* git log
+ 1513* git checkout master
+ 1514* git cherry-pick f38677209bae91f7810343cc46abc07824806dec
+ 1515* git status
+ 1516  history
