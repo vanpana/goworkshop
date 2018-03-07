@@ -10,6 +10,7 @@ import (
 const (
 	UNIQUE_BOOK_TITLE_CONSTRAINT = "title_unique"
 )
+var Connection *gorm.DB
 
 func InitDB() (*gorm.DB, error) {
 
@@ -30,9 +31,10 @@ func InitDB() (*gorm.DB, error) {
 	// Migrating the schema
 	// This call will only create the new table if it does not exist - or add new columns , it will not modify
 	// any data present in the table or remove or modify any columns
-	DBInstance.AutoMigrate(model.AuthorDto{})
-	DBInstance.AutoMigrate(model.BookDto{})
+	DBInstance.AutoMigrate(model.Author{})
+	DBInstance.AutoMigrate(model.Book{})
 
+	DBInstance.Table("author").AddUniqueIndex("author_pk", "uuid")
 	// Adding foreign key constraints on the book table
 	DBInstance.Table("book").AddForeignKey("author_uuid", "author(uuid)", "RESTRICT", "RESTRICT")
 

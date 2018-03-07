@@ -7,10 +7,11 @@ import (
 	"fmt"
 	"io/ioutil"
 	"encoding/json"
+	"goworkshop/persistence"
 )
 
 func GetAllAuthors(w http.ResponseWriter, r *http.Request) {
-	WriteJson(w, model.Authors)
+	 WriteJson(w, GetAuthorsFromDB())
 }
 
 func GetAuthorByUUID(w http.ResponseWriter, r *http.Request) {
@@ -34,7 +35,7 @@ func DeleteAuthorByUUID(w http.ResponseWriter, r *http.Request) {
 }
 
 func AddAuthor(w http.ResponseWriter, r *http.Request) {
-	var author model.AuthorDto
+	var author model.Author
 	bytes, _ := ioutil.ReadAll(r.Body)
 	err := json.Unmarshal(bytes, &author)
 	if err != nil {
@@ -46,7 +47,7 @@ func AddAuthor(w http.ResponseWriter, r *http.Request) {
 }
 
 func UpdateAuthor(w http.ResponseWriter, r *http.Request) {
-	var author model.AuthorDto
+	var author model.Author
 	bytes, _ := ioutil.ReadAll(r.Body)
 	err := json.Unmarshal(bytes, &author)
 	if err != nil {
@@ -59,4 +60,10 @@ func UpdateAuthor(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	WriteJson(w, author)
+}
+
+func GetAuthorsFromDB() model.AuthorsList{
+	var authors model.AuthorsList
+	persistence.Connection.Where(&model.Author{}).Find(&authors)
+	return authors
 }

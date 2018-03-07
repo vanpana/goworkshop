@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	persistence.InitDB()
+	persistence.Connection, _ = persistence.InitDB()
 	model.Authors = importer.ImportAuthors()
 	fmt.Printf("Imported authors are: %s\n", model.Authors)
 	model.Books = importer.ImportBooks()
