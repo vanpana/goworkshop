@@ -8,6 +8,7 @@ import (
 	"io/ioutil"
 	"encoding/json"
 	"goworkshop/persistence"
+	"strconv"
 )
 
 func GetAllAuthors(w http.ResponseWriter, r *http.Request) {
@@ -15,23 +16,19 @@ func GetAllAuthors(w http.ResponseWriter, r *http.Request) {
 }
 
 func GetAuthorByUUID(w http.ResponseWriter, r *http.Request) {
-	authorUUID := mux.Vars(r)["uuid"]
-	author, err := model.Authors.Get(authorUUID)
+	id, err := strconv.Atoi(mux.Vars(r)["id"])
 	if err != nil {
-		fmt.Fprintf(w, "Error: %s", err)
-	} else {
-		WriteJson(w, author)
+		panic(err)
 	}
+	WriteJson(w, GetAuthorByIDFromDB(id))
 }
 
 func DeleteAuthorByUUID(w http.ResponseWriter, r *http.Request) {
-	var authorUUID = mux.Vars(r)["uuid"]
-	err := model.Authors.Delete(authorUUID)
+	id, err := strconv.Atoi(mux.Vars(r)["id"])
 	if err != nil {
-		fmt.Fprintf(w, "Failed to delete author: %s", err)
-	} else {
-		WriteJson(w, model.Authors)
+		panic(err)
 	}
+	DeleteAuthorByIDFromDB(id)
 }
 
 func AddAuthor(w http.ResponseWriter, r *http.Request) {
@@ -41,8 +38,7 @@ func AddAuthor(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		fmt.Fprintf(w, "Failed to create author: %s", err)
 	} else {
-		model.Authors.Add(author)
-		WriteJson(w, author)
+		AddAuthorToDB(author)
 	}
 }
 
@@ -66,4 +62,22 @@ func GetAuthorsFromDB() model.AuthorsList{
 	var authors model.AuthorsList
 	persistence.Connection.Where(&model.Author{}).Find(&authors)
 	return authors
+}
+
+func GetAuthorByIDFromDB(id int) model.Author {
+	var author model.Author
+	persistence.Connection.Where(&model.Author{Entity: model.Entity{ID: id}}).Find(&author)
+	return author
+}
+
+func AddAuthorToDB(author model.Author) {
+	err := persistence.Connection.Create(&author).Error
+	if err != nil {
+		fmt.Println(err)
+	}
+	return author.ID
+}
+
+func DeleteAuthorByIDFromDB(id int) {
+	persistence.Connection.Delete(&model.Author{Entity: model.Entity{ID: id}})
 }

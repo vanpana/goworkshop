@@ -4,9 +4,9 @@ import "net/http"
 
 const (
 	authorBaseUrl   = "/authors"
-	authorByUuidUrl = authorBaseUrl + "/{uuid}"
+	authorByUuidUrl = authorBaseUrl + "/{id}"
 	booksBaseUrl    = "/books"
-	bookByUuidUrl   = booksBaseUrl + "/{uuid}"
+	bookByUuidUrl   = booksBaseUrl + "/{id}"
 )
 
 type Route struct {

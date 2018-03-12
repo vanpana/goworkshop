@@ -7,7 +7,7 @@ var Books BooksList
 
 //Book - The DTO used to access books
 type Book struct {
-	UUID        string `json:"uuid"`
+	Entity
 	Title       string `json:"title"`
 	NoPages     int    `json:"noPages"`
 	ReleaseDate string `json:"releaseDate"`
@@ -17,7 +17,7 @@ type Book struct {
 
 func (book Book) String() string {
 	return fmt.Sprintf("Book{UUID='%s', Title='%s', NoPages=%d, ReleaseDate='%s',Author=%s}",
-		book.UUID, book.Title, book.NoPages, book.ReleaseDate, book.Author)
+		book.ID, book.Entity.UUID, book.Title, book.NoPages, book.ReleaseDate, book.Author)
 }
 
 //BooksList - A list of Book objects

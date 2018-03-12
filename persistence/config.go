@@ -34,9 +34,9 @@ func InitDB() (*gorm.DB, error) {
 	DBInstance.AutoMigrate(model.Author{})
 	DBInstance.AutoMigrate(model.Book{})
 
-	DBInstance.Table("author").AddUniqueIndex("author_pk", "uuid")
+	DBInstance.Table("author").AddUniqueIndex("author_pk", "id")
 	// Adding foreign key constraints on the book table
-	DBInstance.Table("book").AddForeignKey("author_uuid", "author(uuid)", "RESTRICT", "RESTRICT")
+	DBInstance.Table("book").AddForeignKey("id", "author(id)", "RESTRICT", "RESTRICT")
 
 	//add uniqueness on book.title column
 	DBInstance.Table("book").AddUniqueIndex(UNIQUE_BOOK_TITLE_CONSTRAINT, "title")

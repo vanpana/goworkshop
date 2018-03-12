@@ -2,12 +2,16 @@ package model
 
 import "fmt"
 
+type Entity struct {
+	ID int `json:"-" gorm:"primary_key"`
+	UUID string `json:"uuid"`
+}
 // Authors - the list of available authors
 var Authors AuthorsList
 
 //Author - The DTO used to access authors
 type Author struct {
-	UUID      string `json:"uuid"`
+	Entity
 	FirstName string `json:"firstName"`
 	LastName  string `json:"lastName"`
 	Birthday  string `json:"birthday"`
